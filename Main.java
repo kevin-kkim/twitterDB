@@ -52,10 +52,10 @@ public class Main {
         // sets the login information that was created using Twitter Dev
         // Application (ConsumerKey, ConsumerSecret, AccessToken,
         // AccessTokenSecret)
-        cb.setDebugEnabled(true).setOAuthConsumerKey("coxwDHqwv25OXCfSLdQCLUGjd")
-                .setOAuthConsumerSecret("Uq2XvdzFxzgOEABeNV9Ua91UjltaBgE0qkykukIKZV0PQMLmIh")
-                .setOAuthAccessToken("988621776799252481-WUOX2WzePyfGiCfOT2NROJKviZNjE9D")
-                .setOAuthAccessTokenSecret("70a8LinTfoAOqJZIEnAXrI89z5SUXaRufac3TBWopvZjF");
+        cb.setDebugEnabled(true).setOAuthConsumerKey("ConsumerKey")
+                .setOAuthConsumerSecret("ConsumerSecret")
+                .setOAuthAccessToken("AccessToken")
+                .setOAuthAccessTokenSecret("AccessTokenSecret");
 
         // Initiate twitter stream using authentication
         TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
